@@ -3,7 +3,7 @@ Sample project for https://github.com/gradle/gradle/issues/18276
 ### Reproduce Steps
 1. `git clone https://github.com/sify21/gradletest`
 2. `mkdir /tmp/repo`, then edit `~/.m2/settings.xml`, uncomment`localRepository` and set it to `/tmp/repo`
-3. `cd gradletest & mvn clean package` ->  maven build succeeds.
+3. `cd gradletest && mvn clean package` ->  maven build succeeds.
 4. `./gradlew clean build` -> gradle build fails with this error:
 ```
    * What went wrong:
